@@ -7,15 +7,26 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.vite
-dist
-dist-ssr
-*.local
+# Dependencies (no subir a Git)
+node_modules/
 
-# Editor directories and files
+# Package manager caches
+.pnpm-debug.log*
+
+# Vite cache / artefactos
+.vite/
+dist/
+dist-ssr/
+
+# Variables locales / entorno
+*.local
+.env
+!.env.example
+
+# Editor / sistema
 .vscode/*
 !.vscode/extensions.json
+!.vscode/settings.json
 .idea
 .DS_Store
 *.suo
@@ -23,3 +34,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db

@@ -1,0 +1,14 @@
+{
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.pnpm": true,
+    "**/.vite": true,
+    "**/dist": true
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.pnpm/**": true,
+    "**/.vite/**": true,
+    "**/dist/**": true
+  }
+}
